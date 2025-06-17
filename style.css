@@ -348,6 +348,7 @@ a {
         display: flex;
         flex-direction: column;
         justify-self: center;
+        padding-left: 2.6rem;
         gap: 1rem;
     }
 
