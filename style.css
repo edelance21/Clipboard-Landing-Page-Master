@@ -358,12 +358,12 @@ a {
     }
 
     .button1 {
-        width: 17rem;
+        width: 17.5rem;
         height: 2.8rem;
     }
 
     .button2 {
-        width: 17rem;
+        width: 17.5rem;
         height: 2.8rem;
     }
 
@@ -385,5 +385,10 @@ a {
     .fourth-p {
         max-width: 28ch;
         margin: auto;
+    }
+
+    .logo-div7 {
+        width: 11rem;
+        padding-left: 3.8rem;
     }
 }
