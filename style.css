@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 11rem;
+}
+
+.figure-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.header-logo {
+    width: 6rem;
+    height: fit-content;
+    
+}
+
+.title {
+    color: hsl(210, 10%, 33%);
+    margin: 1rem;
+}
+
+p{
+    color: hsl(171, 66%, 44%);
+}
+
+.first-p {
+    max-width: 56ch;
+    margin: auto;
+    line-height: 1.2rem;
+}
+
+.button1 {
+    width: 10rem;
+    height: 2.4rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: hsl(201, 11%, 66%);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 0px black;
+}
+
+.button2 {
+    width: 10rem;
+    height: 2.4rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 0px black;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+h2, h3{
+    color: hsl(210, 10%, 33%);
+}
+
+.second-p {
+    max-width: 62ch;
+    line-height: 1.3rem;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.img-computer {
+    display: block;
+    width: 46rem;
+    margin: 0rem 3rem 3rem 0rem;
+}
+
+.article3 {
+    display: flex;
+}
+
+.h3-p {
+    max-width: 34ch;
+    text-align: justify;
+    padding-bottom: 0.5rem;
+}
+
+.small-title {
+    text-align: justify;
+    padding-bottom: 0.5rem;
+    padding-top: 2.5rem
+}
+
+.container-small-titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo {
+    margin: 1rem;
+}
+
+.third-p {
+    max-width: 58ch;
+    margin: auto;
+}
+
+.img-devices {
+    width: 46rem;
+    padding-top: 2rem;
+}
+
+.fourth-p {
+    padding-bottom: 2rem;
+}
+
+.div6-p {
+    max-width: 32ch;
+}
+
+.article6 {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.logo-div7 {
+    width: 8rem;
+    height: fit-content;
+    
+}
+
+.article7-img {
+    display: flex;
+    justify-self: center;
+    gap: 7rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+.icon-view, .icon-text, .icon-preview {
+    width: 2rem;
+    margin: 1rem;
+}
+
+.div8-p {
+    max-width: 30ch;
+    margin: auto;
+}
+
+footer {
+    background-color: hsla(202, 8%, 74%, 0.129);
+    height: 10rem;
+    align-content: center;
+}
+
+.img-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo-footer {
+    width: 2.8rem;
+    display: flex;
+}
+
+.div-p-footer {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.div-footer-icon {
+    display: flex;
+    height: fit-content;
+    gap: 2.5rem;
+}
+
+.div-span {
+    display: flex;
+    gap: 8rem;
+}
+
+.paddingbottom {
+    padding-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(171, 66%, 44%);
+}
+
+.twitter {
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: hsl(204, 11%, 74%);
+}
+
+.button2:hover {
+    background-color: hsl(233, 100%, 77%);
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        max-width: 375px;
+        margin: 0;
+    }
+
+    .img-computer {
+        width: 18rem;
+        margin: auto;
+    }
+
+    .article3 {
+        display: block;
+    }
+
+    .img-devices {
+        width: 20rem;
+        margin: auto;
+        padding-top: 2rem;
+    }
+    
+    .h3-p {
+        text-align: center;
+        max-width: 30ch;
+        align-self: center;
+    }
+
+    .article4 .subtitulo {
+        padding-top: 3rem;
+    }
+
+    .small-title {
+        text-align: center;
+    }
+
+    .article6 {
+        display: block;
+    }
+
+    .icon-view, .icon-text, .icon-preview {
+        margin: 1.7rem;
+    }
+
+    .article7-img {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        padding-left: 2rem;
+    }
+
+    footer {
+        max-width: 375px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        justify-content: baseline;
+        justify-content: center;
+    }
+
+    .div-p-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .logo-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .div-span {
+        display: block;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .paddingbottom {
+        padding-bottom: 0;
+    }
+
+    .div-span p{
+        padding-bottom: 1rem;
+    }
+
+    header {
+        background-image: url(images/bg-header-mobile.png);
+    }
+    
+    .header-logo {
+        width: 5.5rem;
+        height: fit-content;
+    }
+
+    .figure-header {
+        display: flex;
+        justify-content: center;
+        padding-top: 2.5rem;
+    }
+
+    .title {
+        max-width: 16ch;
+        margin: auto;
+        padding-bottom: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .nav-button {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        gap: 1rem;
+    }
+
+    .first-p {
+        max-width: 30ch;
+        padding-bottom: 1rem;
+    }
+
+    .button1 {
+        width: 16rem;
+        height: 2.8rem;
+    }
+
+    .button2 {
+        width: 16rem;
+        height: 2.8rem;
+    }
+
+    .second-p {
+        max-width: 30ch;
+    }
+
+    .third-p {
+        max-width: 30ch;
+        padding-bottom: 1rem;
+    }
+
+    .div6-p {
+        max-width: 30ch;
+        margin: auto;
+        padding-top: 1rem;
+    }
+
+    .fourth-p {
+        max-width: 28ch;
+        margin: auto;
+    }
+}
