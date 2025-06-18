@@ -232,14 +232,13 @@ a {
     background-color: hsl(233, 100%, 77%);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .container {
         width: 100%;
         max-width: 375px;
         margin: 0;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
     }
 
     .img-computer {
@@ -274,7 +273,8 @@ a {
     }
 
     .article6 {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .icon-view, .icon-text, .icon-preview {
@@ -289,7 +289,7 @@ a {
     }
 
     footer {
-        max-width: 375px;
+        width: 100%;
         height: fit-content;
         display: flex;
         flex-direction: column;
