@@ -230,7 +230,8 @@ a {
 
 @media only screen and (max-width: 400px) {
     .container {
-        width: 375px;
+        width: 100%;
+        max-width: 375px;
         margin: 0;
     }
 
@@ -240,7 +241,9 @@ a {
     }
 
     .article3 {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .img-devices {
