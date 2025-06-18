@@ -94,12 +94,15 @@ h2, h3{
 
 .img-computer {
     display: block;
-    width: 46rem;
+    max-width: 46rem;
+    width: 100%;
+    height: auto;
     margin: 0rem 3rem 3rem 0rem;
 }
 
 .article3 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .h3-p {
@@ -129,7 +132,8 @@ h2, h3{
 }
 
 .img-devices {
-    width: 46rem;
+    max-width: 46rem;
+    width: 100%;
     padding-top: 2rem;
 }
 
@@ -236,8 +240,8 @@ a {
     }
 
     .img-computer {
-        width: 18rem;
-        margin: auto;
+        max-width: 100%;
+        padding: 0 1rem;
     }
 
     .article3 {
@@ -247,7 +251,7 @@ a {
     }
 
     .img-devices {
-        width: 20rem;
+        max-width: 100%;
         margin: auto;
         padding-top: 2rem;
     }
