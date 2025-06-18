@@ -230,7 +230,7 @@ a {
 
 @media only screen and (max-width: 400px) {
     .container {
-        max-width: 375px;
+        width: 375px;
         margin: 0;
     }
 
