@@ -236,7 +236,7 @@ a {
     .container {
         width: 100%;
         max-width: 375px;
-        margin: 0;
+        margin: auto;
         display: flex;
         flex-direction: column;
     }
